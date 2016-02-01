@@ -1,0 +1,8 @@
+com/myretail/model/PriceDetails.class
+com/myretail/model/Products.class
+com/myretail/util/MyRetailValidator.class
+com/myretail/model/SkuDetails.class
+com/myretail/repository/ProductRepository.class
+com/myretail/service/ProductService.class
+com/myretail/model/ErrorRepresentation.class
+com/myretail/MyRetailApplication.class
