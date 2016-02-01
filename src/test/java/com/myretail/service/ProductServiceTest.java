@@ -32,6 +32,7 @@ public class ProductServiceTest extends MyRetailTest {
   @Autowired
   ProductService productService;
 
+
   private static final String productURI="/myretail/product/{productId}";
 
   private static final String catalogURI="/myretail/category/{category}";
@@ -40,6 +41,7 @@ public class ProductServiceTest extends MyRetailTest {
   public void setUp() {
     mvc = MockMvcBuilders.webAppContextSetup(webApplicationContext).build();
   }
+
 
   @Test
   public void testGetProductId() throws Exception {

@@ -1,5 +1,7 @@
 package com.myretail.model;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import javax.persistence.*;
 import javax.xml.bind.annotation.*;
 import java.io.Serializable;
@@ -76,6 +78,7 @@ public class SkuDetails implements Serializable{
 
   @OneToOne(fetch = FetchType.EAGER)
   @JoinColumn(name="PRODUCT_ID")
+  @JsonManagedReference
   public PriceDetails getPriceDetails() {
     return priceDetails;
   }

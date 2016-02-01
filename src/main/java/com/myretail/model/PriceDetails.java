@@ -1,5 +1,7 @@
 package com.myretail.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 import javax.persistence.*;
 import javax.xml.bind.annotation.*;
 import java.io.Serializable;
@@ -33,6 +35,7 @@ public class PriceDetails implements Serializable {
   @Id
   @OneToOne
   @JoinColumn(name="PRODUCT_ID")
+  @JsonBackReference
   public SkuDetails getSkuDetails() {
     return skuDetails;
   }
