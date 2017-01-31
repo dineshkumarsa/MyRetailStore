@@ -8,7 +8,7 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
- * @Aravind
+ * @Dinesh
  */
 
 @XmlRootElement(name="priceDetails")

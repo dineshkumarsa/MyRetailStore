@@ -3,7 +3,7 @@ package com.myretail.util;
 import org.springframework.stereotype.Component;
 
 /**
- * @Aravind
+ * @Dinesh
  */
 @Component
 public class MyRetailUtil {

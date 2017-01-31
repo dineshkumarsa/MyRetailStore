@@ -8,7 +8,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * @Aravind
+ * @Dinesh
  */
 @XmlRootElement(name="products")
 @XmlAccessorType(XmlAccessType.NONE)

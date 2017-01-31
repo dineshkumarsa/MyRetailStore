@@ -8,7 +8,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * @Aravind
+ * @Dinesh
  */
 @XmlRootElement(name="SKU")
 @XmlAccessorType(XmlAccessType.NONE)
